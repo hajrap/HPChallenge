@@ -1,0 +1,81 @@
+﻿@model IEnumerable<WebApplicationMVC.Models.DataModel.RootObject>
+
+@{
+    ViewBag.Title = "Index";
+}
+<h2>Wolferhampton Race Details</h2>
+<div class="grid-container">
+    @foreach (var item in Model)
+    {
+        <div class="item1"> @Html.DisplayNameFor(model => model.FixtureId)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.FixtureId)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.Timestamp)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.Timestamp)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.FixtureName)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.RawData.FixtureName)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.Id)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.RawData.Id)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.StartTime)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.RawData.StartTime)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.Sequence)</div>
+        <div class="item1"> @Html.DisplayFor(modelItem => item.RawData.Sequence)</div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.Tags)</div>
+        <div class="item1">
+            <ul class="main">
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.CourseType) : @Html.DisplayFor(modelItem => item.RawData.Tags.CourseType) </li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.Distance) : @Html.DisplayFor(modelItem => item.RawData.Tags.Distance)</li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.Going) : @Html.DisplayFor(modelItem => item.RawData.Tags.Going)</li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.Runners) : @Html.DisplayFor(modelItem => item.RawData.Tags.Runners)</li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.MeetingCode) : @Html.DisplayFor(modelItem => item.RawData.Tags.MeetingCode)</li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.TrackCode) : @Html.DisplayFor(modelItem => item.RawData.Tags.TrackCode)</li>
+                <li>@Html.DisplayNameFor(model => item.RawData.Tags.Sport) : @Html.DisplayFor(modelItem => item.RawData.Tags.Sport)</li>
+            </ul>
+        </div>
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.Markets)</div>
+        @foreach (var markets in item.RawData.Markets)
+        {
+            <div class="item1">@Html.DisplayNameFor(modelItem => markets.Id) : @Html.DisplayFor(modelItem => markets.Id)</div>
+            <div class="item1"></div>
+            <div class="item1">
+                @Html.DisplayNameFor(modelItem => markets.Selections) :
+                @foreach (var selection in markets.Selections)
+                {
+                    <ul class="main">
+                        <li>@Html.DisplayNameFor(modelItem => selection.Id) : @Html.DisplayFor(modelItem => selection.Id) </li>
+                        <li>@Html.DisplayNameFor(modelItem => selection.Price) : @Html.DisplayFor(modelItem => selection.Price)</li>
+                        <li>
+                            <div>
+                                @Html.DisplayNameFor(modelItem => selection.Tags) :
+                                <ul>
+                                    <li>@Html.DisplayNameFor(modelItem => selection.Tags.participant) : @Html.DisplayFor(modelItem => selection.Tags.participant)</li>
+                                    <li>@Html.DisplayNameFor(modelItem => selection.Tags.name) : @Html.DisplayFor(modelItem => selection.Tags.name)</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                }
+            </div>
+        }
+        <div class="item1"> @Html.DisplayNameFor(model => model.RawData.Participants)</div>
+        @foreach (var participants in item.RawData.Participants)
+        {
+            <div class="item1">
+                <ul class="main">
+                    <li>@Html.DisplayNameFor(modelItem => participants.Id) : @Html.DisplayFor(modelItem => participants.Id)</li>
+                    <li>@Html.DisplayNameFor(modelItem => participants.Name) : @Html.DisplayFor(modelItem => participants.Name)</li>
+                    <li>
+                        @Html.DisplayNameFor(modelItem => participants.Tags) :
+                        <ul>
+                            <li>@Html.DisplayNameFor(modelItem => participants.Tags.Weight) : @Html.DisplayFor(modelItem => participants.Tags.Weight)</li>
+                            <li>@Html.DisplayNameFor(modelItem => participants.Tags.Drawn) : @Html.DisplayFor(modelItem => participants.Tags.Drawn)</li>
+                            <li>@Html.DisplayNameFor(modelItem => participants.Tags.Jockey) : @Html.DisplayFor(modelItem => participants.Tags.Jockey)</li>
+                            <li>@Html.DisplayNameFor(modelItem => participants.Tags.Number) : @Html.DisplayFor(modelItem => participants.Tags.Number)</li>
+                            <li>@Html.DisplayNameFor(modelItem => participants.Tags.Trainer) : @Html.DisplayFor(modelItem => participants.Tags.Trainer)</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="item1"></div>
+        }
+    }
+</div>
