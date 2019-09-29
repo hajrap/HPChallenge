@@ -29,3 +29,12 @@ You can either complete the test prior to the interview or come in and do it as 
 * Feel free to use any resources you would normally use (Google, StackOverflow etc.)
 * Please ask any questions you wish
 * The coding exercise will be done on the developer test laptop (1141): Test // Wagering99
+
+### Solution by HP
+* code reside inside project WebApplicationMVC
+* Data folder contains json data file
+* DataModel  contains the data structure 
+* HomeController is used to convert json  data to DataModel type list
+* Index view to display data
+* site.css contains styling
+*Horse name are already in price ascending order that whay didn't apply any logic for it
