@@ -36,7 +36,7 @@ namespace WebApplicationMVC.Controllers
 
             try
             {
-               return JsonConvert.DeserializeObject<DataModel.RootObject>(System.IO.File.ReadAllText(@"c:\Repo\HPchallenge\WebApplicationMVC\Data\Wolferhampton_Race.json"));
+               return JsonConvert.DeserializeObject<DataModel.RootObject>(System.IO.File.ReadAllText(@"Data\Wolferhampton_Race.json"));
             }
             catch (Exception ex) { 
             throw ex;

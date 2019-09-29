@@ -1,3 +1,14 @@
+
+
+### Solution By HP
+code reside in WebApplicationMVC
+Data folder contains json data file
+DataModel contains data structure
+HomeController used to convert json data to DataModel List and render view
+Index view  to display data
+site.css conatiains styling
+
+
 # .NET Code Challenge
 
 You've been provided with the shell of a .Net application in Visual Studio with some sample inputs 
