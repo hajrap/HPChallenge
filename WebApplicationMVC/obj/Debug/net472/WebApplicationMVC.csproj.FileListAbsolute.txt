@@ -1,3 +1,4 @@
+C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\WebApplicationMVC.exe.config
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\WebApplicationMVC.deps.json
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\WebApplicationMVC.exe
@@ -32,7 +33,6 @@ C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Http
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.JsonPatch.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Localization.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.dll
-C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.Abstractions.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\Microsoft.AspNetCore.Mvc.Cors.dll
@@ -115,7 +115,6 @@ C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\System.Security.Principal
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\System.Text.Encoding.CodePages.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\System.Text.Encodings.Web.dll
 C:\Repo\HPchallenge\WebApplicationMVC\bin\Debug\net472\System.Threading.Tasks.Extensions.dll
-C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.csprojAssemblyReference.cache
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.exe.config
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.csproj.CoreCompileInputs.cache
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.RazorAssemblyInfo.cache
@@ -139,3 +138,4 @@ C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.Views.p
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.csproj.CopyComplete
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.exe
 C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.pdb
+C:\Repo\HPchallenge\WebApplicationMVC\obj\Debug\net472\WebApplicationMVC.csprojAssemblyReference.cache

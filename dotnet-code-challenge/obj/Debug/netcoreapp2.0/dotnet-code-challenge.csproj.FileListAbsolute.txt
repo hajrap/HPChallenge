@@ -1,11 +1,11 @@
+C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfoInputs.cache
+C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfo.cs
 C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.deps.json
 C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.runtimeconfig.json
 C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.runtimeconfig.dev.json
 C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
-C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csprojAssemblyReference.cache
-C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csproj.CoreCompileInputs.cache
-C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfoInputs.cache
-C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.AssemblyInfo.cs
 C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
+C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csprojAssemblyReference.cache
+C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csproj.CoreCompileInputs.cache
