@@ -9,7 +9,6 @@ C:\Repo\HPchallenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_co
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\bin\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csprojAssemblyReference.cache
-C:\Repo\HPchallenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CoreCompileInputs.cache
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfoInputs.cache
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.AssemblyInfo.cs
 C:\Repo\HPchallenge\dotnet-code-challenge.Test\obj\Debug\netcoreapp2.0\dotnet-code-challenge.Test.csproj.CopyComplete

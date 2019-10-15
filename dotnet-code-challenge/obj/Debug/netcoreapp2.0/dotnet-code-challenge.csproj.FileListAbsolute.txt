@@ -8,4 +8,3 @@ C:\Repo\HPchallenge\dotnet-code-challenge\bin\Debug\netcoreapp2.0\dotnet_code_ch
 C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.dll
 C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet_code_challenge.pdb
 C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csprojAssemblyReference.cache
-C:\Repo\HPchallenge\dotnet-code-challenge\obj\Debug\netcoreapp2.0\dotnet-code-challenge.csproj.CoreCompileInputs.cache
