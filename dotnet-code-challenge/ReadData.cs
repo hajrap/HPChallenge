@@ -2,6 +2,7 @@
 using Newtonsoft.Json;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Text;
 
 namespace dotnet_code_challenge
@@ -114,7 +115,49 @@ namespace dotnet_code_challenge
             }
             return charCount;
         }
+
+        public  int diagonalDifference(List<List<int>> arr)
+        {
+            int firstDiag = 0;
+            int secondDiag = 0;
+            int output = 0;
+            for (int i = 0; i < arr.Count; i++)
+            {
+                firstDiag = firstDiag + arr[i][i];
+                int j = arr[i].Count-1;
+             
+                    secondDiag = secondDiag + arr[i][j-i];
+
+            }
+            output = firstDiag - secondDiag;
+            if (output < 0)
+                output = output * -1;
+            return output;
+        }
+        public void plusMinus(int[] arr)
+        {
+            decimal arrCount = arr.Length;
+            decimal postiveNumberCount = 0;
+            decimal negativeNumberCount = 0;
+            decimal ZeroCount = 0;
+            for (int i = 0; i < arrCount; i++)
+            {
+                if (arr[i] == 0)
+                    ZeroCount++;
+                else if (arr[i] < 0)
+                    negativeNumberCount++;
+                else if (arr[i] > 0)
+                    postiveNumberCount++;
+            }
+            decimal postiveNumber = (postiveNumberCount / arrCount);
+            decimal negativeNumber = (negativeNumberCount / arrCount);
+            decimal Zero = (ZeroCount / arrCount);
+            Console.WriteLine(decimal.Round(postiveNumber, 4));
+            Console.WriteLine(decimal.Round(negativeNumber, 4));
+            Console.WriteLine(decimal.Round(Zero, 4));
+        }
+
     }
 
- 
+
 }

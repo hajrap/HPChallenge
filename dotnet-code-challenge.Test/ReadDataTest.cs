@@ -47,5 +47,48 @@ namespace dotnet_code_challenge.Test
             var output = _ReadData.CountChar("Riobootics");
             Assert.True(true);
         }
-    }
+
+        [Fact]
+        public void multi_demList()
+        {
+            List<List<int>> InputList = new List<List<int>>();
+      
+                List<int> innerlist0 = new List<int>();
+
+                innerlist0.Add(11);
+                innerlist0.Add(2);
+                innerlist0.Add(4);
+                InputList.Add(innerlist0);
+
+                List<int> innerlist1 = new List<int>();
+
+                innerlist1.Add(4);
+                innerlist1.Add(5);
+                innerlist1.Add(6);
+                InputList.Add(innerlist1);
+
+                List<int> innerlist2 = new List<int>();
+
+                innerlist2.Add(10);
+                innerlist2.Add(8);
+                innerlist2.Add(-12);
+                InputList.Add(innerlist2);
+            
+            var output = _ReadData.diagonalDifference(InputList);
+            Assert.True(true);
+        }
+        [Fact]
+        public void Numbertypes()
+        {
+            int [] inputarr =new int[6];
+            inputarr[0] = -4;
+            inputarr[1] =3;
+            inputarr[2] =-9;
+            inputarr[3] =0;
+            inputarr[4] =4;
+            inputarr[5] =1;
+            _ReadData.plusMinus(inputarr);
+            Assert.True(true);
+        }
+        }
 }
